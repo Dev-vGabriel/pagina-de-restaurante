@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/80ce1947e1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>Responsividade</title>
+</head>
+<body>
+    <header>
+        <i class="fa-solid fa-utensils" id="logo"> Food</i>
+        <nav class="pc-list">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Suplementos</a></li>
+                <li><a href="#">Acessórios</a></li>
+                <li><a href="#">Ofertas</a></li>
+            </ul>
+        </nav>
+
+        <button class="botao">
+            Saiba mais
+        </button>
+
+        <button class="barrinhas-mobile">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">O sabor que vai até <span>você</span></h1>     
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi Lorem ipsum dolor sit amet consectetur</p>
+
+                <div id="cta-buttons">
+                    <a href="#" class="btn" aria-label="veja o cardápio">ver cardápio</a>
+
+                    <a href="tel:+6799881234" class="btn" aria-label="ligar para (67) 99881234">
+                            <i class="fa-solid fa-phone"> </i>
+                            <span> (67) 99881234</span>
+                    </a>
+                </div>
+
+                <div class="redes-sociais-buttons">
+                      <a href="whatsapp://send?phone=+551234567890" class="icone-logo" aria-label="chame no whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                      </a>
+
+                      <a href="https://www.instagram.com" class="icone-logo" target="_blank" aria-label="instagram">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+
+                      <a href="https://www.facebook.com/" class="icone-logo" target="_blank" aria-label="facebook">
+                        <i class="fab fa-facebook"></i>
+                      </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                 <img src="images/hero.png" alt="pratos de comida">
+            </div>
+
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="images/dish.png" class="dish-image" alt="pratos">
+                    <h3 class="dish-title">lorem ipsum</h3>
+                    <span class="dish-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sint</span>
+
+                    <div class="dish-rate">
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="dish-button">
+                           <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                        
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="images/dish2.png" class="dish-image" alt="pratos">
+                    <h3 class="dish-title">lorem ipsum</h3>
+                    <span class="dish-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sint</span>
+
+                    <div class="dish-rate">
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$30,25</h4>
+                        <button class="dish-button">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="images/dish3.png" class="dish-image" alt="pratos">
+                    <h3 class="dish-title">lorem ipsum</h3>
+                    <span class="dish-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sint</span>
+
+                    <div class="dish-rate">
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$25,99</h4>
+                        <button class="dish-button">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="images/dish4.png" class="dish-image" alt="pratos">
+                    <h3 class="dish-title">lorem ipsum</h3>
+                    <span class="dish-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sint</span>
+
+                    <div class="dish-rate">
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$15,00</h4>
+                        <button class="dish-button">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="images/chef.png" alt="chefe de cozinha" class="testimonials-chef">
+
+            <div id="testimonials-content">
+                <h2 class="section-title">Depoimentos</h2>
+                <h3 class="section_subtitle">O que os clientes falam sobre nós!</h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="images/avatar.png" alt="foto de perfil do usúario" class="feedback-avatar">
+
+                        <div class="feedback-content">
+                            <p>
+                                Julia Santos
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                <span class="coment">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, quaerat"</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="images/avatar.png" alt="foto de perfil do usúario" class="feedback-avatar">
+
+                        <div class="feedback-content">
+                            <p>
+                                Larissa Pereira
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                               <span class="coment">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, quaerat"</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://www.youtube.com/watch?v=YRvf00NooN8" class="link-avaliaçoes">
+                    Ver mais avaliações
+                </a>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="images/wave.svg" alt="imagem de ondulaçao">
+
+        <div id="footer-itens">
+            <p class="copyright">
+                &copy; 2024 - Gabriel Santos
+            </p>
+            <div class="redes-sociais-buttons">
+                <a href="whatsapp://send?phone=+551234567890" class="icone-logo" aria-label="chame no whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+
+                  <a href="https://www.instagram.com" class="icone-logo" target="_blank" aria-label="instagram">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+
+                  <a href="https://www.facebook.com" class="icone-logo" target="_blank" aria-label="facebook">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
